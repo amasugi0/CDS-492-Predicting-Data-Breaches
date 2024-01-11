@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled,rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Provided Credit Monitoring &le; 0.5<br/>gini = 0.5<br/>samples = 6912<br/>value = [3456, 3456]<br/>class = Corporation>, fillcolor="#ffffff"] ;
+1 [label=<Credit Debit Numbers Breached &le; 0.5<br/>gini = 0.381<br/>samples = 3666<br/>value = [938, 2728]<br/>class = Finance>, fillcolor="#7dbfee"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Account Number Breached &le; 0.5<br/>gini = 0.488<br/>samples = 849<br/>value = [490, 359]<br/>class = Corporation>, fillcolor="#f8ddca"] ;
+1 -> 2 ;
+3 [label=<gini = 0.348<br/>samples = 396<br/>value = [307, 89]<br/>class = Corporation>, fillcolor="#eda672"] ;
+2 -> 3 ;
+4 [label=<gini = 0.482<br/>samples = 453<br/>value = [183, 270]<br/>class = Finance>, fillcolor="#bfdff7"] ;
+2 -> 4 ;
+5 [label=<MA Residents Affected &le; 0.207<br/>gini = 0.267<br/>samples = 2817<br/>value = [448, 2369]<br/>class = Finance>, fillcolor="#5eb0ea"] ;
+1 -> 5 ;
+6 [label=<gini = 0.15<br/>samples = 2042<br/>value = [167, 1875]<br/>class = Finance>, fillcolor="#4ba6e7"] ;
+5 -> 6 ;
+7 [label=<gini = 0.462<br/>samples = 775<br/>value = [281, 494]<br/>class = Finance>, fillcolor="#aad5f4"] ;
+5 -> 7 ;
+8 [label=<MA Residents Affected &le; 0.061<br/>gini = 0.348<br/>samples = 3246<br/>value = [2518, 728]<br/>class = Corporation>, fillcolor="#eda572"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<Account Number Breached &le; 0.5<br/>gini = 0.414<br/>samples = 1262<br/>value = [892, 370]<br/>class = Corporation>, fillcolor="#f0b58b"] ;
+8 -> 9 ;
+10 [label=<gini = 0.357<br/>samples = 726<br/>value = [557, 169]<br/>class = Corporation>, fillcolor="#eda775"] ;
+9 -> 10 ;
+11 [label=<gini = 0.469<br/>samples = 536<br/>value = [335, 201]<br/>class = Corporation>, fillcolor="#f5cdb0"] ;
+9 -> 11 ;
+12 [label=<SSNBreached &le; 0.5<br/>gini = 0.296<br/>samples = 1984<br/>value = [1626, 358]<br/>class = Corporation>, fillcolor="#eb9d65"] ;
+8 -> 12 ;
+13 [label=<gini = 0.395<br/>samples = 377<br/>value = [275, 102]<br/>class = Corporation>, fillcolor="#efb082"] ;
+12 -> 13 ;
+14 [label=<gini = 0.268<br/>samples = 1607<br/>value = [1351, 256]<br/>class = Corporation>, fillcolor="#ea995f"] ;
+12 -> 14 ;
+}
