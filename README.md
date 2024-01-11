@@ -30,7 +30,7 @@ In pursuit of these questions, our project has three primary objectives:
 2. To assess the effectiveness of data protection strategies, particularly focusing on Data Encryption and Credit Monitoring.
 3. To gain a comprehensive understanding of the patterns and motivations behind organized data breaches, providing valuable insights into their targets and how they are executed.
 
-Thisresearch project aims to explore the complex relationships between data breaches and their effects, equipping stakeholders with the tools and knowledge needed to prevent and mitigate these cyber threats effectively.
+This research project aims to explore the complex relationships between data breaches and their effects, equipping stakeholders with the tools and knowledge needed to prevent and mitigate these cyber threats effectively.
 
 # II.Data
 
